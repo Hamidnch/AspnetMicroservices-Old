@@ -1,0 +1,19 @@
+//Collections == Tables
+//Rows(Records) == Documents
+
+
+//ls
+//docker ps
+//docker pull mongo
+//docker run -d -p 27017:27017 --name Hamidnch-CatalogDb mongo
+  //docker logs -f hamidnch-CatalogDb
+//docker exec -it Hamidnch-CatalogDb /bin/bash
+//mongo
+//show dbs or showDatabases
+//show collections
+//use CatalogDb => for create a database with name 'CatalogDb'
+//db.createCollection('Products')
+//db.Products.insert([{ 'Name': 'Asus Laptop', 'Category': 'Computers', ...}])
+
+//db.Products.find({}).pretty()
+//db.Products.remove({})
